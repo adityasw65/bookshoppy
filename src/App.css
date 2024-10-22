@@ -1,0 +1,228 @@
+/* sora font-family  */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+/* ################################## website start ################################## */
+
+:root {
+   --sora: "Sora", sans-serif;
+   --colorHover: #E95930;
+   --transitionState1: all .2s 0s linear;
+   --transitionState2: all .5s 0s linear;
+}
+/* * {
+   border: 1px solid red;
+} */
+
+/* --------------------------- navbar start --------------------------- */
+
+
+
+.activeNav {
+   background-color: grey;
+}
+.navbar .navbar-brand {
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 600;
+   font-size: 2rem;
+   transition: var(--transitionState1);
+}
+.navbar a {
+   font-family: var(--sora);
+   color: black;
+   transition: var(--transitionState1);
+   font-weight: 650;
+}
+.navbar a:hover {
+   color: var(--colorHover);
+}
+/* --------------------------- navbar end --------------------------- */
+
+
+
+/* --------------------------- footer start --------------------------- */
+#footer {
+   background-color: #2e2f31;
+   font-family: var(--sora);
+   padding: 50px 0px;
+}
+#footer .navbar-brand {
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 600;
+   font-size: 2rem;
+   transition: var(--transitionState1);
+   color: white;
+}
+.divider {
+   color: white;
+}
+#footer-social-links a {
+   text-decoration: none;
+   color: white;
+   font-size: 1.1rem;
+   line-height: 3;
+   transition: var(--transitionState1);
+}
+#footer-social-links a:hover {
+   color: var(--colorHover);
+}
+#icons a i {
+   color: white;
+   font-size: 1.5rem;
+   line-height: 2;
+   transition: var(--transitionState1);
+}
+#icons a i:hover {
+   color: var(--colorHover);
+}
+p {
+   color: white;
+}
+#footer p a {
+   text-decoration: none;
+   color: rgb(185, 50, 50);
+   transition: var(--transitionState1);
+}
+#footer p a:hover {
+   color: var(--colorHover);
+}
+
+/* --------------------------- footer end --------------------------- */
+
+
+
+/* --------------------------- home start --------------------------- */
+#home {
+   /* border: 2px solid greenyellow; */
+   margin-top: 75px;
+   background-color: #f5d3c990;
+   padding: 100px 20px;
+}
+#home h1 {
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 600;
+   font-size: 3rem;
+}
+#home p {
+   color: black;
+   font-family: var(--sora);
+}
+
+#imageHero img {
+   width: 100%;
+   box-shadow: 0px 20px 40px 2px grey;
+}
+@media screen and (min-width: 992px) {
+   #home {
+      /* border: 2px solid greenyellow; */
+      margin-top: 75px;
+      background-color: #f5d3c990;
+      padding: 70px 0px;
+   }
+   #home h1 {
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 600;
+      font-size: 4rem;
+      padding: 0px 0px 0px 0px;
+   }
+   #imageHero img {
+      width: 40%;
+      height: 90%;
+      position: absolute;
+      top: 80px;
+      right: 10px;
+   }
+}
+
+/* --------------------------- home end --------------------------- */
+
+
+
+/* --------------------------- featured start --------------------------- */
+#featured {
+   margin-top: 100px;
+}
+#featured h4 {
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   font-weight: 550;
+   letter-spacing: 1px;
+}
+/* --------------------------- featured end --------------------------- */
+
+
+
+/* --------------------------- explore-books start --------------------------- */
+#explore-books {
+   margin-top: 70px;
+}
+#explore-books button {
+   border: 2px solid var(--colorHover);
+   font-family: var(--sora);
+   color: var(--colorHover);
+   font-size: 1.2rem;
+   padding: 20px 40px;
+   border-radius: 50px;
+   background-color: white;
+   transition: var(--transitionState1);
+}
+#explore-books button:hover {
+   background-color: var(--colorHover);
+   color: white;
+}
+#explore-books a, p {
+   font-family: var(--sora);
+}
+#explore-books p {
+   color: black;
+}
+/* --------------------------- explore-books end ---------------------------  */
+
+
+
+/* --------------------------- readers start --------------------------- */
+#readers {
+   margin-top: 75px;
+   background-color: #f5d3c990;
+   padding: 100px 20px;
+}
+#readers h1 {
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 600;
+   font-size: 3rem;
+}
+#readers p {
+   color: black;
+   font-family: var(--sora);
+}
+#readers a {
+   text-decoration: none;
+   padding: 10px 30px;
+   background-color: rgba(106, 41, 41, 0.765);
+   color: white;
+   font-weight: 600;
+   text-transform: uppercase;
+   border-radius: 10px;
+   transition: var(--transitionState1);
+}
+#readers a:hover {
+   background-color: var(--colorHover);
+}
+#readers .readersCard {
+   background-color: white;
+   border-radius: 10px;
+}
+#readers h5 {
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 600;
+}
+
+@media screen and (min-width: 992px ){
+   #readerQue {
+      padding: 15% 0px;
+   }
+}
+/* --------------------------- readers end --------------------------- */
+
+/* ################################## website start ##################################*/
+
